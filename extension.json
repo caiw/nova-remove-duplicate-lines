@@ -1,0 +1,29 @@
+{
+    "identifier": "cai.RemoveDuplicateLines",
+    "name": "Remove duplicate lines",
+    "organization": "Cai Wingfield",
+    "description": "Remove duplicate lines.",
+    "version": "0.1",
+    "categories": ["commands"],
+    "repository": "https://github.com/caiw/nova-remove-duplicate-lines/",
+    "bugs": "https://github.com/caiw/nova-remove-duplicate-lines/issues",
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "*",
+    ],
+    
+    "entitlements": {
+        
+    },
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Leave unique",
+                "command": "remove-duplicate-lines.unique"
+            },
+        ]
+    }
+}
